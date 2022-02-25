@@ -3,8 +3,7 @@
 //
 
 #include <iostream>
-int main()
-{
+int main(){
     using namespace std;
     int carrots; // declare an integer variable
     carrots = 25; // assign a value to the variable
@@ -14,5 +13,10 @@ int main()
     cout << endl;
     carrots = carrots - 1; // modify the variable
     cout << "Crunch, crunch. Now I have " << carrots << " carrots." << endl;
+
+    int steinway;
+    int baldwin;
+    int yamaha;
+    yamaha = baldwin = steinway = 88;
     return 0;
 }
