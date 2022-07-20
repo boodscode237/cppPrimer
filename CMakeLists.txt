@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(cppPrimer Chapter2_Setting_out_cpp/main.cpp Chapter2_Setting_out_cpp/carrot.cpp Chapter2_Setting_out_cpp/getinfo.cpp Chapter2_Setting_out_cpp/sqrt.cpp Chapter2_Setting_out_cpp/ourfunc.cpp Chapter2_Setting_out_cpp/convert.cpp)
 
-add_executable(carrot Chapter2_Setting_out_cpp/carrot.cpp Chapter3_Dealing_With_Data/limits.cpp Chapter3_Dealing_With_Data/exceed.cpp Chapter3_Dealing_With_Data/hexoct1.cpp Chapter3_Dealing_With_Data/hexoct2.cpp Chapter3_Dealing_With_Data/chartype.cpp Chapter3_Dealing_With_Data/morechar.cpp)
+add_executable(carrot Chapter2_Setting_out_cpp/carrot.cpp Chapter3_Dealing_With_Data/limits.cpp Chapter3_Dealing_With_Data/exceed.cpp Chapter3_Dealing_With_Data/hexoct1.cpp Chapter3_Dealing_With_Data/hexoct2.cpp Chapter3_Dealing_With_Data/chartype.cpp Chapter3_Dealing_With_Data/morechar.cpp Chapter3_Dealing_With_Data/bondini.cpp)
 add_executable(getinfo Chapter2_Setting_out_cpp/getinfo.cpp)
 add_executable(sqrt Chapter2_Setting_out_cpp/sqrt.cpp)
 add_executable(ourfunc Chapter2_Setting_out_cpp/ourfunc.cpp)
@@ -16,3 +16,4 @@ add_executable(hexoct1 Chapter3_Dealing_With_Data/hexoct1.cpp)
 add_executable(hexoct2 Chapter3_Dealing_With_Data/hexoct2.cpp)
 add_executable(chartype Chapter3_Dealing_With_Data/chartype.cpp)
 add_executable(morechar Chapter3_Dealing_With_Data/morechar.cpp)
+add_executable(bondini Chapter3_Dealing_With_Data/bondini.cpp)
